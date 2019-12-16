@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'f1228db6-a1cf-42bb-bdce-272677bb23bb'
+  dockerRegistryServiceConnection: 'divman-acr'
   imageRepository: 'shiguptgotemp'
   containerRegistry: 'divman.azurecr.io'
   dockerfilePath: '**/Dockerfile'
