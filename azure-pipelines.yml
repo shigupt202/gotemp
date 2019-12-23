@@ -55,7 +55,7 @@ stages:
     displayName: Deploy
     # pool:
     #   name: Default
-    environment: 'shigupt202gotemp.default'
+    environment: 'divman-env.default'
     strategy:
       runOnce:
         deploy:
